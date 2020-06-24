@@ -1,0 +1,39 @@
+.business {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+    .businessVideo {
+        // border: 1px solid #555;
+        margin: 10px 0;
+
+        .picIm {
+            background-color: #fff;
+            width: 461px;
+            padding: 100px;
+            height: 427px;
+            // border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        .btnVideo {
+            position: absolute;
+            display: flex;
+            padding: 152px 185px;
+        }
+    }
+    .dataOfBuisness {
+        margin: 50px 0 0 0;
+        .subHead {
+            font-size: 17px;
+            font-weight: 700;
+            color: #555;
+            .picOfSubHead {
+                margin-right: 10px;
+            }
+        }
+        .descriptionOfHead {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+    }
+}
