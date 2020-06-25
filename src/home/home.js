@@ -4,6 +4,7 @@ import Banner from '../sections/banner/banner';
 import Business from '../sections/business/business';
 import SliderProjects from '../sections/slider/slider';
 import Joining from '../sections/Joining/join';
+import About from '../sections/about/about';
 function Home() {
     return (
         <div>
@@ -11,6 +12,7 @@ function Home() {
             <Banner/>
             <Business />
             <SliderProjects />
+            <About/>
             <Joining />
         </div>
     )
