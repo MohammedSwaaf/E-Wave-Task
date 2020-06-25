@@ -12,13 +12,13 @@ function Business() {
     return (
         <div className='business'>
             <Row>
-                <Col md='5' style={{ margin: 'auto', padding: ' 0px 0px 0px 139px' }}>
+                <Col xs='12' sm='12' md='12' lg='5' style={{ margin: 'auto', padding: ' 0px 0px 0px 139px' }}>
                     <div className='businessVideo'>
                         <img className='btnVideo' src={BtnVid} alt='btn' />
                         <img className='picIm' src={Work} alt='yes' />
                     </div>
                 </Col>
-                <Col md='7' style={{ padding: '53px' }}>
+                <Col xs='12' sm='12' md='12' lg='7' style={{ padding: '53px' }}>
                     <h4 className='headOfBusiness'>Get Work Done & Grow Your Business Faster On Website</h4>
                     <div className='dataOfBuisness'>
                         <span className='subHead'><img className='picOfSubHead' src={Work} alt='work' />Hire The Best With Trust</span>

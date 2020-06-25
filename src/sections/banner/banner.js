@@ -11,7 +11,7 @@ function Banner() {
     return (
         <div className='banner'>
             <Row style={{ height: '100%' }}>
-                <Col md='5' className='colOfBannerData' style={{ margin: 'auto', padding: '0 0 0 139px' }}>
+                <Col xs='12' sm='12' md='5' className='colOfBannerData' style={{ margin: 'auto', padding: '0 0 0 139px' }}>
                     <div className='bannerData'>
                         <h3 className='bannerHead'>First Title, 2nd Title</h3>
                         <h6 className='subBannerHead'>But I must explain to you how all this mistaken idea of denouncing pleasure.</h6>
@@ -21,7 +21,7 @@ function Banner() {
                         <button className='btn btn-primary'>Get Started</button>
                     </div>
                 </Col>
-                <Col md='7' style={{ background: '' }} >
+                <Col xs='12' sm='12' md='7' style={{ background: '' }} >
                     {/* <h2>Pic</h2> */}
                     <div className='person'>
                         {/* <div className="half-circle"></div> */}
