@@ -1,39 +1,340 @@
+@import "~video-react/styles/scss/video-react";
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 .business {
     // border: 1px solid #ddd;
-    padding: 10px;
+    padding: 20px 40px !important;
     background: #f9f9f9;
-    .businessVideo {
-        // border: 1px solid #555;
-        margin: 10px 0;
-
-        .picIm {
-            background-color: #fff;
-            width: 461px;
-            padding: 100px;
-            height: 427px;
-            // border: 1px solid #ddd;
-            border-radius: 3px;
-        }
-        .btnVideo {
-            position: absolute;
-            display: flex;
-            padding: 152px 185px;
-        }
+    .headOfBusiness{
+        color: #555;
+        font-size: 15px;
+        font-family: Roboto;
+        text-align: left;
+        font-weight: bold;
     }
+    .businessVideo {
+        width: 100%;
+        // padding: 10px;
+        // line-height: 10px;
+
+        .video-react .video-react-big-play-button {
+            background: #0b7bd2;
+            border: none;
+        }
+        .video-react .video-react-poster {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+    }
+
+    .businessVideo:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        z-index: 100;
+        bottom: 0;
+        width: 3px;
+        height: 70%; /* or 100px */
+        background: #0b7bd2;
+        margin: -4px -8px;
+        transition: 0.5s;
+    }
+    .businessVideo:after {
+        content: "";
+        display: block;
+        width: 80%;
+        padding-top: 20px;
+        border-bottom: 3px solid #0b7bd2;
+        margin: -4px -21px;
+    }
+
     .dataOfBuisness {
         margin: 50px 0 0 0;
         .subHead {
-            font-size: 17px;
-            font-weight: 700;
+            font-size: 12px;
+            font-weight: 500;
             color: #555;
             .picOfSubHead {
                 margin-right: 10px;
             }
         }
         .descriptionOfHead {
-            margin-top: 5px;
-            font-size: 14px;
+            margin-top: 4px;
+            font-size: 11px;
             color: #555;
+        }
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .business {
+        // border: 1px solid #ddd;
+        background: #f9f9f9;
+        .headOfBusiness{
+            color: #555;
+            font-size: 20px;
+            font-family: Roboto;
+            text-align: left;
+            font-weight: bold;
+        }
+        .businessVideo {
+            width: 100%;
+            // padding: 10px;
+            // line-height: 10px;
+
+            .video-react .video-react-big-play-button {
+                background: #0b7bd2;
+                border: none;
+            }
+            .video-react .video-react-poster {
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+        }
+
+        .businessVideo:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            z-index: 100;
+            bottom: 0;
+            width: 3px;
+            height: 70%; /* or 100px */
+            background: #0b7bd2;
+            margin: -4px -8px;
+            transition: 0.5s;
+        }
+        .businessVideo:after {
+            content: "";
+            display: block;
+            width: 80%;
+            padding-top: 20px;
+            border-bottom: 3px solid #0b7bd2;
+            margin: -4px -21px;
+        }
+
+        .dataOfBuisness {
+            margin: 50px 0 0 0;
+            .subHead {
+                font-size: 15px;
+                font-weight: 700;
+                color: #555;
+                .picOfSubHead {
+                    margin-right: 10px;
+                }
+            }
+            .descriptionOfHead {
+                margin-top: 4px;
+                font-size: 13px;
+                color: #555;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .business {
+        // border: 1px solid #ddd;
+        background: #f9f9f9;
+        .headOfBusiness{
+            color: #555;
+            font-size: 20px;
+            font-family: Roboto;
+            text-align: left;
+            font-weight: bold;
+        }
+        .businessVideo {
+            width: 100%;
+            // padding: 10px;
+            // line-height: 10px;
+
+            .video-react .video-react-big-play-button {
+                background: #0b7bd2;
+                border: none;
+            }
+            .video-react .video-react-poster {
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+        }
+
+        .businessVideo:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            z-index: 100;
+            bottom: 0;
+            width: 3px;
+            height: 70%; /* or 100px */
+            background: #0b7bd2;
+            margin: -4px -8px;
+            transition: 0.5s;
+        }
+        .businessVideo:after {
+            content: "";
+            display: block;
+            width: 80%;
+            padding-top: 20px;
+            border-bottom: 3px solid #0b7bd2;
+            margin: -4px -21px;
+        }
+
+        .dataOfBuisness {
+            margin: 50px 0 0 0;
+            .subHead {
+                font-size: 15px;
+                font-weight: 700;
+                color: #555;
+                .picOfSubHead {
+                    margin-right: 10px;
+                }
+            }
+            .descriptionOfHead {
+                margin-top: 4px;
+                font-size: 13px;
+                color: #555;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    
+    .business {
+        // border: 1px solid #ddd;
+        padding: 10px;
+        background: #f9f9f9;
+        .headOfBusiness{
+            color: #555;
+            font-size: 17px;
+            font-family: Roboto;
+            text-align: left;
+            font-weight: bold;
+        }
+        .businessVideo {
+            // width: 500px;
+            // padding: 10px;
+            // line-height: 10px;
+
+            .video-react .video-react-big-play-button {
+                background: #0b7bd2;
+                border: none;
+            }
+            .video-react .video-react-poster {
+                background-repeat: no-repeat;
+                background-size: auto;
+            }
+            
+        }
+
+        .businessVideo:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            z-index: 100;
+            bottom: 0;
+            width: 3px;
+            height: 70%; /* or 100px */
+            background: #0b7bd2;
+            margin: 6px -8px;
+            transition: 0.5s;
+        }
+        .businessVideo:after {
+            content: "";
+            display: block;
+            width: 80%;
+            padding-top: 20px;
+            border-bottom: 3px solid #0b7bd2;
+            margin: -4px -21px;
+        }
+
+        .dataOfBuisness {
+            margin: 50px 0 0 0;
+            .subHead {
+                font-size: 13px;
+                font-weight: 700;
+                color: #555;
+                .picOfSubHead {
+                    margin-right: 10px;
+                }
+            }
+            .descriptionOfHead {
+                margin-top: 4px;
+                font-size: 12px;
+                color: #555;
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+    .business {
+        background: #f9f9f9;
+        .headOfBusiness{
+            color: #555;
+            font-size: 18px;
+            font-family: Roboto;
+            text-align: left;
+            font-weight: bold;
+        }
+        .businessVideo {
+            width: 500px;
+            padding: 10px;
+            line-height: 10px;
+
+            .video-react .video-react-big-play-button {
+                background: #0b7bd2;
+                border: none;
+            }
+            .video-react .video-react-poster {
+                background-repeat: no-repeat;
+                background-size: auto;
+            }
+            
+        }
+        .businessVideo:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            z-index: 100;
+            bottom: 0;
+            width: 3px;
+            height: 70%; /* or 100px */
+            background: #0b7bd2;
+            margin: 5px 0;
+            transition: 0.5s;
+        }
+        .businessVideo:after {
+            content: "";
+            display: block;
+            width: 80%;
+            padding-top: 20px;
+            border-bottom: 3px solid #0b7bd2;
+            margin: 0 -15px;;
+        }
+
+        .dataOfBuisness {
+            margin: 50px 0 0 0;
+            .subHead {
+                font-size: 17px;
+                font-weight: 700;
+                color: #555;
+                .picOfSubHead {
+                    margin-right: 10px;
+                }
+            }
+            .descriptionOfHead {
+                margin-top: 5px;
+                font-size: 14px;
+                color: #555;
+            }
         }
     }
 }

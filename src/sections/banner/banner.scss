@@ -1,84 +1,404 @@
 $size: 45px;
 .colOfBannerData {
-    @media (min-width:300px) and (max-width: 500px) {
+    @media (min-width: 300px) and (max-width: 500px) {
         margin: 0 auto;
         padding: 15px !important;
         position: relative;
         right: -8px;
     }
 }
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
 .banner {
     opacity: 1;
-    // width: 100%;
-    // height: 440px;
-    // border: 1px solid #ddd;
-
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    .colOfBannerData {
+        margin: 50px 0 !important;
+        // padding: 0 0px !important;
+    }
     .bannerData {
+        padding: 0 45px;
         .bannerHead {
-            padding-bottom: 37px;
-            font-size: 40px;
+            font-size: 20px;
             color: #555;
         }
         .subBannerHead {
-            font-size: 16px;
+            font-size: 13px;
             color: #777;
             text-align: left;
+            padding: 13px 0 0 0;
         }
-        margin: auto;
-        .startedDemo {
-            // align-items: center;
-            // margin: 0 97px 0 0;
-            justify-content: center;
-            display: flex;
-        }
+
         .link {
-            margin: 0 23%;
-            // justify-content: center;
-            // display: flex;
-            padding: 9px 40px;
+            padding: -1px 0px;
             img {
-                margin-bottom: 3px;
                 margin-right: 5px;
             }
         }
         .btn {
-            margin: 0 27%;
+            margin: 0 0%;
             display: flex;
-            margin-top: 36px;
-            padding: 12px 40px;
+            margin-top: 20px;
+            padding: 7px 35px;
             background-color: #0064b1 !important;
         }
     }
 
     /*Image Colom*/
-    .person{
-        margin: 36px 0;
+    .colOfBannerImg {
+        // margin: 100px auto 0 auto !important;
+    }
+    .person {
+        margin: 38px 0;
         .half-circle {
-            width: 600px;
-            height: 340px;
-            background-color: rgb(198, 236, 248);
-            border-top-left-radius: 550px;
-            border-top-right-radius: 550px;
+            width: 350px;
+            height: 240px;
+            background-color: #c6ecf8;
+            border-top-left-radius: 350px;
+            border-top-right-radius: 312px;
             border-bottom: 0;
-            margin-right: 88px 0;
-            margin: -340px 50px;
+            margin: -262px 28px;
         }
         .dataOfParseon {
-            margin: 225px  0 0 175px;
+            margin: 173px 0 0 50px;
+            font-size: 15px;
             .MuiBox-root-2 {
                 margin-bottom: 0px;
                 margin-left: -4px;
             }
-            .name{
+            .name {
                 color: #555;
                 font-weight: 600;
             }
-            .title{
-                color: #777 ;
+            .title {
+                color: #777;
             }
         }
     }
     .personImage {
-        margin: 0 0 0 340px;
+        height: 305px;
+        margin: 0 0 0 184px;
+        padding: 0 0 21px 0;
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .banner {
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        padding: 0 100px;
+        .colOfBannerData {
+            margin: 50px 0 !important;
+            // padding: 0 0px !important;
+        }
+        .bannerData {
+            .bannerHead {
+                font-size: 20px;
+                color: #555;
+            }
+            .subBannerHead {
+                font-size: 13px;
+                color: #777;
+                text-align: left;
+                padding: 13px 0 0 0;
+            }
+
+            .link {
+                padding: -1px 0px;
+                img {
+                    margin-right: 5px;
+                }
+            }
+            .btn {
+                margin: 0 0%;
+                display: flex;
+                margin-top: 20px;
+                padding: 7px 35px;
+                background-color: #0064b1 !important;
+            }
+        }
+
+        /*Image Colom*/
+        .colOfBannerImg {
+            // margin: 100px auto 0 auto !important;
+        }
+        .person {
+                margin: 38px 80px;
+            .half-circle {
+                width: 400px;
+                height: 250px;
+                background-color: #c6ecf8;
+                border-top-left-radius: 350px;
+                border-top-right-radius: 312px;
+                border-bottom: 0;
+                margin: -271px 0px;
+            }
+            .dataOfParseon {
+                margin: 173px 0 0 50px;
+                font-size: 15px;
+                .MuiBox-root-2 {
+                    margin-bottom: 0px;
+                    margin-left: -4px;
+                }
+                .name {
+                    color: #555;
+                    font-weight: 600;
+                }
+                .title {
+                    color: #777;
+                }
+            }
+        }
+        .personImage {
+            height: 305px;
+            margin: 0 0 0 200px;
+            padding: 0 0 21px 0;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .banner {
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        padding: 0 0px;
+        .colOfBannerData {
+            margin: 100px auto 0 auto !important;
+            padding: 0 0px !important;
+        }
+        .bannerData {
+            .bannerHead {
+                font-size: 20px;
+                color: #555;
+            }
+            .subBannerHead {
+                font-size: 13px;
+                color: #777;
+                text-align: left;
+                padding: 13px 0 0 0;
+            }
+
+            .link {
+                padding: 3px 40px;
+                img {
+                    margin-right: 5px;
+                }
+            }
+            .btn {
+                margin: 0 8%;
+                display: flex;
+                margin-top: 36px;
+                padding: 12px 40px;
+                background-color: #0064b1 !important;
+            }
+        }
+
+        /*Image Colom*/
+        .colOfBannerImg {
+            // margin: 100px auto 0 auto !important;
+        }
+        .person {
+            margin: 38px 0;
+            .half-circle {
+                width: 400px;
+                height: 250px;
+                background-color: #c6ecf8;
+                border-top-left-radius: 350px;
+                border-top-right-radius: 312px;
+                border-bottom: 0;
+                margin: -271px 0px;
+            }
+            .dataOfParseon {
+                margin: 173px 0 0 50px;
+                font-size: 15px;
+                .MuiBox-root-2 {
+                    margin-bottom: 0px;
+                    margin-left: -4px;
+                }
+                .name {
+                    color: #555;
+                    font-weight: 600;
+                }
+                .title {
+                    color: #777;
+                }
+            }
+        }
+        .personImage {
+            height: 305px;
+            margin: 0 0 0 200px;
+            padding: 0 0 21px 0;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+
+@media (min-width: 992px) {
+    .banner {
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        // padding: 0 100px;
+        .colOfBannerData {
+            margin: 100px auto 0 auto !important;
+        }
+        .bannerData {
+            // margin: auto;
+            .bannerHead {
+                // padding-bottom: 37px;
+                font-size: 27px;
+                color: #555;
+            }
+            .subBannerHead {
+                font-size: 13px;
+                color: #777;
+                text-align: left;
+                // padding: 13px 0 0 0;
+            }
+
+            // .startedDemo {
+            //     // align-items: center;
+            //     // margin: 0 97px 0 0;
+            //     justify-content: center;
+            //     display: flex;
+            // }
+            .link {
+                margin: 0 10%;
+                padding: 3px 40px;
+                img {
+                    // margin-bottom: 3px;
+                    margin-right: 5px;
+                }
+            }
+            .btn {
+                margin: 0 15%;
+                display: flex;
+                margin-top: 36px;
+                padding: 12px 40px;
+                background-color: #0064b1 !important;
+            }
+        }
+
+        /*Image Colom*/
+        .colOfBannerImg {
+            // margin: 50px auto !important;
+        }
+        .person {
+            margin: 36px 0;
+            .half-circle {
+                width: 452px;
+                height: 246px;
+                background-color: #c6ecf8;
+                border-top-left-radius: 800px;
+                border-top-right-radius: 800px;
+                border-bottom: 0;
+                margin: -262px 65px;
+            }
+            .dataOfParseon {
+                margin: 180px 0 0 120px;
+                .MuiBox-root-2 {
+                    margin-bottom: 0px;
+                    margin-left: -4px;
+                }
+                .name {
+                    color: #555;
+                    font-weight: 600;
+                }
+                .title {
+                    color: #777;
+                }
+            }
+        }
+        .personImage {
+            margin: 0 0 -5px 311px;
+            padding: 0 0 21px 0;
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .banner {
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        // padding: 0 139px;
+        .bannerData {
+            .bannerHead {
+                padding-bottom: 37px;
+                font-size: 35px;
+                color: #555;
+            }
+            .subBannerHead {
+                font-size: 16px;
+                color: #777;
+                // text-align: left;
+            }
+            margin: auto;
+            .startedDemo {
+                // align-items: center;
+                // margin: 0 97px 0 0;
+                // justify-content: center;
+                // display: flex;
+            }
+            .link {
+                // margin: 0 23%;
+                // justify-content: center;
+                // display: flex;
+                padding: 9px 40px;
+                img {
+                    margin-bottom: 3px;
+                    margin-right: 5px;
+                }
+            }
+            .btn {
+                // margin: 0 27%;
+                display: flex;
+                margin-top: 36px;
+                padding: 12px 40px;
+                background-color: #0064b1 !important;
+            }
+        }
+
+        /*Image Colom*/
+        .person {
+            margin: 42px 0;
+            .half-circle {
+                width: 600px;
+                height: 340px;
+                background-color: rgb(198, 236, 248);
+                border-top-left-radius: 550px;
+                border-top-right-radius: 550px;
+                border-bottom: 0;
+                margin-right: 88px 0;
+                margin: -340px 50px;
+            }
+            .dataOfParseon {
+                margin: 225px 0 0 175px;
+                .MuiBox-root-2 {
+                    margin-bottom: 0px;
+                    margin-left: -4px;
+                }
+                .name {
+                    color: #555;
+                    font-weight: 600;
+                }
+                .title {
+                    color: #777;
+                }
+            }
+        }
+        .personImage {
+            height: 500px;
+            margin: 0px 0px -20px 325px;
+        }
     }
 }

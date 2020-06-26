@@ -15,13 +15,12 @@ function Banner() {
                     <div className='bannerData'>
                         <h3 className='bannerHead'>First Title, 2nd Title</h3>
                         <h6 className='subBannerHead'>But I must explain to you how all this mistaken idea of denouncing pleasure.</h6>
-                        <div className='startedDemo'><br />
-                        </div>
+                        
                         <Link className='link'> <img src={play} alt='Play' />Watch Demo</Link>
                         <button className='btn btn-primary'>Get Started</button>
                     </div>
                 </Col>
-                <Col xs='12' sm='12' md='7' style={{ background: '' }} >
+                <Col xs='12' sm='12' md='7' className='colOfBannerImg' style={{ background: '' }} >
                     {/* <h2>Pic</h2> */}
                     <div className='person'>
                         {/* <div className="half-circle"></div> */}

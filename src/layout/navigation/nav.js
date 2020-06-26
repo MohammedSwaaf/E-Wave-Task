@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    Container
+    Container,Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink
 } from 'reactstrap';
 import { NavLink as RRNavLink } from 'react-router-dom';
 import './nav.scss';
@@ -38,11 +31,11 @@ class Navigation extends Component {
                     ]}
                     subsets={['cyrillic-ext', 'greek']}
                 />
-                <Navbar style={{ fontFamily: 'Roboto' }} className="nav navbar-expand-sm" toggleable='true' expand="md">
+                <Navbar color='light' style={{ fontFamily: 'Roboto' }} className="nav navbar-expand-sm" toggleable='true' expand="md">
                     <Container>
                         <NavbarBrand className='logo' to="/"><span className='leftLogo'>siteLogo</span> <span className='rightLogo'>How it works?</span></NavbarBrand>
                         <NavbarToggler onClick={this.toggle} />
-                        <Collapse className='collapse' isOpen={this.state.isOpen} navbar>
+                        <Collapse isOpen={this.state.isOpen} navbar>
 
                             <Nav className='ml-auto' navbar>
 

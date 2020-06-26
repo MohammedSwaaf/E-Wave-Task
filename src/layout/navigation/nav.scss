@@ -53,4 +53,11 @@
     .active:hover {
         text-decoration: none;
     }
+    button.navbar-toggler {
+        border: 1px solid #ddd;
+        // background: #555;
+    }
+    .navbar-toggler-icon{
+        background: url('../../assets/security.svg');
+    }
 }
