@@ -32,7 +32,7 @@ export default function Freelance() {
 
   return (
     <div className={classes.root}>
-        <h2>But I must explain</h2>
+        <h2 className='headNav'>But I must explain</h2>
       <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}

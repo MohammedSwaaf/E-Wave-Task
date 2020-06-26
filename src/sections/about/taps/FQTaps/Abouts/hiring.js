@@ -31,7 +31,7 @@ export default function Hiring() {
 
   return (
     <div className={classes.root}>
-        <h2>Lorem ipsum dolor sit amet</h2>
+        <h2 className='headNav'>Lorem ipsum dolor sit amet</h2>
       <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}

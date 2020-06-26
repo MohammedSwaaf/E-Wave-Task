@@ -1,0 +1,50 @@
+.footer{
+    // height: 220px;
+    background-color: #F1F1F1;
+    border: 1px solid #F1F1F1;
+    // text-align: center;
+    .linksOfFooter{
+        padding: 0 139px;
+        .logoFooter{
+            color: #555;
+            margin-top: 33px;
+            font-family: roboto;
+            font-weight: 600;
+        }
+        .tesrms{
+            font-size: 14px;
+            font-family:roboto;
+            color: #555;
+        }
+        .copyRight{
+            font-size: 12px;
+            font-family: Roboto;
+            color: #555;
+            opacity: 0.75;
+            margin-top: 8px;
+        }
+        .socialApps{
+            img{
+                padding-right: 25px;
+            }
+        }
+        ul{
+            list-style: none;
+            margin-top: 40px;
+            .Top{
+                font-size: 16px;
+                font-weight: 600;
+                font-family: Roboto;
+                color: #555;
+            }
+            li{
+                padding: 5px 0;
+                font-size: 12px;
+                color: #555;
+                font-family: Roboto;
+                text-align: left;
+            }
+        }
+    }
+
+}

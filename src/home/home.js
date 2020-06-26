@@ -5,6 +5,7 @@ import Business from '../sections/business/business';
 import SliderProjects from '../sections/slider/slider';
 import Joining from '../sections/Joining/join';
 import About from '../sections/about/about';
+import Footer from '../layout/footer/footer';
 function Home() {
     return (
         <div>
@@ -14,6 +15,7 @@ function Home() {
             <SliderProjects />
             <About/>
             <Joining />
+            <Footer />
         </div>
     )
 }
