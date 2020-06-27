@@ -73,7 +73,7 @@
         background: #f9f9f9;
         .headOfBusiness{
             color: #555;
-            font-size: 20px;
+            font-size: 15px;
             font-family: Roboto;
             text-align: left;
             font-weight: bold;
@@ -141,7 +141,7 @@
         background: #f9f9f9;
         .headOfBusiness{
             color: #555;
-            font-size: 20px;
+            font-size: 15px;
             font-family: Roboto;
             text-align: left;
             font-weight: bold;
@@ -277,6 +277,8 @@
     
     .business {
         background: #f9f9f9;
+        
+
         .headOfBusiness{
             color: #555;
             font-size: 18px;
@@ -288,7 +290,7 @@
             width: 500px;
             padding: 10px;
             line-height: 10px;
-
+            margin: 0 auto;
             .video-react .video-react-big-play-button {
                 background: #0b7bd2;
                 border: none;

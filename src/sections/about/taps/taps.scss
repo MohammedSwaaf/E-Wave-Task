@@ -1,40 +1,196 @@
-
-.tapsOfAbout{
-    margin: -55px 0 ;
-    padding: 0px 139px;
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+.tapsOfAbout {
+    margin: -55px 0;
+    // padding: 0px 139px;
     .nav-tabs {
         // border-bottom: 1px solid #dee2e6;
-        .nav-item{
-            width: 200px;
+        .nav-item {
+            // width: 200px;
         }
         justify-content: center;
-        .nav-link{
+        .nav-link {
             background: #f1f1f1;
             border-radius: 0;
-            border-bottom: 1px solid  #D7D7D7;
+            // border-bottom: 1px solid #d7d7d7;
             padding: 15px 15px;
             text-align: center;
         }
-        .nav-link.active{
+        .nav-link.active {
             background: #fff;
             border: 1px solid #fff;
             // border: none;
-            color: #0064B1;
-            
-            
+            color: #0064b1;
         }
-        
     }
-    .card-body{
+    .card-body {
         border: none;
     }
     .tab-content {
         margin: 100px 0;
-        ul{
-            li{
+        ul {
+            li {
                 padding: 20px;
                 font-weight: lighter;
-                
+            }
+        }
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .tapsOfAbout {
+        margin: -55px 0;
+        // padding: 0px 139px;
+        .nav-tabs {
+            // border-bottom: 1px solid #dee2e6;
+            .nav-item {
+                // width: 100px;
+            }
+            justify-content: center;
+            .nav-link {
+                background: #f1f1f1;
+                border-radius: 0;
+                border-bottom: 1px solid #d7d7d7;
+                padding: 15px 15px;
+                text-align: center;
+            }
+            .nav-link.active {
+                background: #fff;
+                border: 1px solid #fff;
+                // border: none;
+                color: #0064b1;
+            }
+        }
+        .card-body {
+            border: none;
+        }
+        .tab-content {
+            margin: 100px 0;
+            ul {
+                li {
+                    padding: 20px;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .tapsOfAbout {
+        margin: -55px 0;
+        // padding: 0px 139px;
+        .nav-tabs {
+            // border-bottom: 1px solid #dee2e6;
+            .nav-item {
+                width: 200px;
+            }
+            justify-content: center;
+            .nav-link {
+                background: #f1f1f1;
+                border-radius: 0;
+                border-bottom: 1px solid #d7d7d7;
+                padding: 15px 15px;
+                text-align: center;
+            }
+            .nav-link.active {
+                background: #fff;
+                border: 1px solid #fff;
+                // border: none;
+                color: #0064b1;
+            }
+        }
+        .card-body {
+            border: none;
+        }
+        .tab-content {
+            margin: 100px 0;
+            ul {
+                li {
+                    padding: 20px;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .tapsOfAbout {
+        margin: -55px 0;
+        padding: 0px 139px;
+        .nav-tabs {
+            // border-bottom: 1px solid #dee2e6;
+            .nav-item {
+                width: 200px;
+            }
+            justify-content: center;
+            .nav-link {
+                background: #f1f1f1;
+                border-radius: 0;
+                border-bottom: 1px solid #d7d7d7;
+                padding: 15px 15px;
+                text-align: center;
+            }
+            .nav-link.active {
+                background: #fff;
+                border: 1px solid #fff;
+                // border: none;
+                color: #0064b1;
+            }
+        }
+        .card-body {
+            border: none;
+        }
+        .tab-content {
+            margin: 100px 0;
+            ul {
+                li {
+                    padding: 20px;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .tapsOfAbout {
+        margin: -55px 0;
+        padding: 0px 139px;
+        .nav-tabs {
+            // border-bottom: 1px solid #dee2e6;
+            .nav-item {
+                width: 200px;
+            }
+            justify-content: center;
+            .nav-link {
+                background: #f1f1f1;
+                border-radius: 0;
+                border-bottom: 1px solid #d7d7d7;
+                padding: 15px 15px;
+                text-align: center;
+            }
+            .nav-link.active {
+                background: #fff;
+                border: 1px solid #fff;
+                // border: none;
+                color: #0064b1;
+            }
+        }
+        .card-body {
+            border: none;
+        }
+        .tab-content {
+            margin: 100px 0;
+            ul {
+                li {
+                    padding: 20px;
+                    font-weight: lighter;
+                }
             }
         }
     }

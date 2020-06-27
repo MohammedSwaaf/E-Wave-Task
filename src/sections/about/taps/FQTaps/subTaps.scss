@@ -1,10 +1,144 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 .makeStyles-root-15 {
     width: 60% !important;
 }
-.MuiPaper-elevation4{
+.MuiPaper-elevation4 {
     box-shadow: none !important;
 }
 .MuiAppBar-colorDefault {
     border-bottom: 1px solid #ddd;
     background-color: #fff !important;
+}
+.MuiTab-wrapper{
+    font-size: 10px !important;
+}
+.quetsions{
+    text-align: center;
+    margin: 50px 0 0px 0;
+    padding: 0 0 20px 0;
+    font-size: 8px;
+    font-family: roboto;
+    color: #555;
+    span{
+        margin: 0 0;
+        color: #0064B1;
+        font-size: 8px;
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .makeStyles-root-15 {
+        width: 60% !important;
+    }
+    .MuiPaper-elevation4 {
+        box-shadow: none !important;
+    }
+    .MuiAppBar-colorDefault {
+        border-bottom: 1px solid #ddd;
+        background-color: #fff !important;
+    }
+    .MuiTab-wrapper{
+        font-size: 12px !important;
+    }
+    .quetsions{
+        text-align: center;
+        margin: 50px 0 0px 0;
+        padding: 0 0 20px 0;
+        font-size: 12px;
+        font-family: roboto;
+        color: #555;
+        span{
+            margin: 0 0;
+            color: #0064B1;
+            font-size: 10px;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .makeStyles-root-15 {
+        width: 60% !important;
+    }
+    .MuiPaper-elevation4 {
+        box-shadow: none !important;
+    }
+    .MuiAppBar-colorDefault {
+        border-bottom: 1px solid #ddd;
+        background-color: #fff !important;
+    }
+    .MuiTab-wrapper{
+        font-size: 12px !important;
+    }
+    .quetsions{
+        text-align: center;
+        margin: 50px 0 0px 0;
+        padding: 0 0 20px 0;
+        font-size: 15px;
+        font-family: roboto;
+        color: #555;
+        span{
+            margin: 0 0;
+            color: #0064B1;
+            font-size: 13px;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .makeStyles-root-15 {
+        width: 60% !important;
+    }
+    .MuiPaper-elevation4 {
+        box-shadow: none !important;
+    }
+    .MuiAppBar-colorDefault {
+        border-bottom: 1px solid #ddd;
+        background-color: #fff !important;
+    }
+    .MuiTab-wrapper{
+        font-size: 12px !important;
+    }
+    .quetsions{
+        text-align: center;
+        margin: 50px 0 0px 0;
+        padding: 0 0 20px 0;
+        font-size: 15px;
+        font-family: roboto;
+        color: #555;
+        span{
+            margin: 0 0;
+            color: #0064B1;
+            font-size: 15px;
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .makeStyles-root-15 {
+        width: 60% !important;
+    }
+    .MuiPaper-elevation4 {
+        box-shadow: none !important;
+    }
+    .MuiAppBar-colorDefault {
+        border-bottom: 1px solid #ddd;
+        background-color: #fff !important;
+    }
+    .quetsions{
+        text-align: center;
+        margin: 50px 0 0px 0;
+        padding: 0 0 20px 0;
+        font-size: 17px;
+        font-family: roboto;
+        color: #555;
+        span{
+            margin: 0 0;
+            color: #0064B1;
+            font-size: 15px;
+        }
+    }
 }

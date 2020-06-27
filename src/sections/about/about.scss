@@ -1,11 +1,127 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 .aboutWorks {
     height: 362px;
     background: url("../../assets/colorful-color-play-concentration-54101.png") no-repeat;
     background-color: #000;
+    background-size: contain;
     color: #fff;
     width: 100%;
     .dataOfAbout {
         text-align: center;
         padding: 121px 0;
+        p {
+            font-weight: lighter;
+            font-family: roboto;
+            font-size: 13px;
+        }
+        .btn {
+            background-color: #0064b1 !important;
+            border: 1px solid #0064b1;
+            padding: 10px 50px;
+        }
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .aboutWorks {
+        height: 362px;
+        background: url("../../assets/colorful-color-play-concentration-54101.png") no-repeat;
+        background-color: #000;
+        background-size: contain;
+        color: #fff;
+        width: 100%;
+        .dataOfAbout {
+            text-align: center;
+            padding: 121px 0;
+            p {
+                font-weight: lighter;
+                font-family: roboto;
+                font-size: 13px;
+            }
+            .btn {
+                background-color: #0064b1 !important;
+                border: 1px solid #0064b1;
+                padding: 10px 50px;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .aboutWorks {
+        height: 362px;
+        background: url("../../assets/colorful-color-play-concentration-54101.png") no-repeat;
+        background-color: #000;
+        background-size: contain;
+        color: #fff;
+        width: 100%;
+        .dataOfAbout {
+            text-align: center;
+            padding: 121px 0;
+            p {
+                font-weight: lighter;
+                font-family: roboto;
+                font-size: 13px;
+            }
+            .btn {
+                background-color: #0064b1 !important;
+                border: 1px solid #0064b1;
+                padding: 10px 50px;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .aboutWorks {
+        height: 362px;
+        background: url("../../assets/colorful-color-play-concentration-54101.png") no-repeat;
+        background-color: #000;
+        background-size: contain;
+        color: #fff;
+        width: 100%;
+        .dataOfAbout {
+            text-align: center;
+            padding: 121px 0;
+            p {
+                font-weight: lighter;
+                font-family: roboto;
+                font-size: 13px;
+            }
+            .btn {
+                background-color: #0064b1 !important;
+                border: 1px solid #0064b1;
+                padding: 10px 50px;
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .aboutWorks {
+        height: 362px;
+        background: url("../../assets/colorful-color-play-concentration-54101.png") no-repeat;
+        background-color: #000;
+        background-size: cover;
+        color: #fff;
+        width: 100%;
+        .dataOfAbout {
+            text-align: center;
+            padding: 121px 0;
+            p {
+                font-weight: lighter;
+                font-family: roboto;
+                font-size: 13px;
+            }
+            .btn {
+                background-color: #0064b1 !important;
+                border: 1px solid #0064b1;
+                padding: 10px 50px;
+            }
+        }
     }
 }

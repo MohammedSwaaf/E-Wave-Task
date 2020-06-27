@@ -1,4 +1,222 @@
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 .headNav{
     text-align: center;
+    color: #555;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: roboto;
     margin: 30px 0;
 }
+.makeStyles-root-31{
+    width: 100% !important;
+}
+.MuiTab-textColorPrimary.Mui-selected {
+    color: #0064B1 !important;
+}
+.MuiExpansionPanel-root:before{
+    content:none !important;
+}
+.makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33 {
+    font-size: 11px !important;
+    font-weight: 500;
+    width: 114px;
+}
+.MuiPaper-elevation1 {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    font-size: 10px !important;
+    // border-bottom: 1px solid #ddd;
+    // border-radius: none;
+    box-shadow: none !important; 
+}
+.p.MuiTypography-root.makeStyles-heading-23.MuiTypography-body1 {
+    font-size: 10px;
+    // font-weight: 800 !important;
+    flex-shrink: 0;
+    color: #555;
+}
+
+svg.MuiSvgIcon-root {
+    color: #0B7BD2;
+}
+p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
+    font-weight: lighter;
+    font-size: 13px;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .headNav{
+        text-align: center;
+        color: #555;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: roboto;
+        margin: 30px 0;
+    }
+    .makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33 {
+        font-size: 12px !important;
+        font-weight: 500;
+        width:250px;
+    }
+    .makeStyles-root-31{
+        width: 100% !important;
+    }
+    .MuiExpansionPanel-root:before{
+        content:none !important;
+    }
+    .MuiPaper-elevation1 {
+        border: 1px solid #ddd;
+        border-radius: 0;
+        // border-bottom: 1px solid #ddd;
+        // border-radius: none;
+        box-shadow: none !important; 
+    }
+    .p.MuiTypography-root.makeStyles-heading-23.MuiTypography-body1 {
+        font-size: 16px;
+        font-weight: 800 !important;
+        flex-shrink: 0;
+        color: #555;
+    }
+    
+    svg.MuiSvgIcon-root {
+        color: #0B7BD2;
+    }
+    p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
+        font-weight: lighter;
+        font-size: 13px;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .headNav{
+        text-align: center;
+        color: #555;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: roboto;
+        margin: 30px 0;
+    }
+    .makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33 {
+        font-size: 14px !important;
+        font-weight: 500;
+        width:350px;
+    }
+    .makeStyles-root-31{
+        width: 100% !important;
+    }
+    .MuiExpansionPanel-root:before{
+        content:none !important;
+    }
+    .MuiPaper-elevation1 {
+        border: 1px solid #ddd;
+        border-radius: 0;
+        // border-bottom: 1px solid #ddd;
+        // border-radius: none;
+        box-shadow: none !important; 
+    }
+    .p.MuiTypography-root.makeStyles-heading-23.MuiTypography-body1 {
+        font-size: 16px;
+        font-weight: 800 !important;
+        flex-shrink: 0;
+        color: #555;
+    }
+    
+    svg.MuiSvgIcon-root {
+        color: #0B7BD2;
+    }
+    p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
+        font-weight: lighter;
+        font-size: 13px;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .headNav{
+        text-align: center;
+        color: #555;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: roboto;
+        margin: 30px 0;
+    }
+    .makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33 {
+        font-size: 14px !important;
+        font-weight: 500;
+        width:350px;
+    }
+    .makeStyles-root-31{
+        width: 100% !important;
+    }
+    .MuiExpansionPanel-root:before{
+        content:none !important;
+    }
+    .MuiPaper-elevation1 {
+        border: 1px solid #ddd;
+        border-radius: 0;
+        // border-bottom: 1px solid #ddd;
+        // border-radius: none;
+        box-shadow: none !important; 
+    }
+    .p.MuiTypography-root.makeStyles-heading-23.MuiTypography-body1 {
+        font-size: 16px;
+        font-weight: 800 !important;
+        flex-shrink: 0;
+        color: #555;
+    }
+    
+    svg.MuiSvgIcon-root {
+        color: #0B7BD2;
+    }
+    p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
+        font-weight: lighter;
+        font-size: 13px;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .headNav{
+        text-align: center;
+        color: #555;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: roboto;
+        margin: 30px 0;
+    }
+    .makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33 {
+        font-size: 16px !important;
+        font-weight: 500;
+        width: 500px;
+    }
+    .makeStyles-root-31{
+        width: 0 !important;
+    }
+    .MuiExpansionPanel-root:before{
+        content:none !important;
+    }
+    .MuiPaper-elevation1 {
+        border: 1px solid #ddd;
+        border-radius: 0;
+        // border-bottom: 1px solid #ddd;
+        // border-radius: none;
+        box-shadow: none !important; 
+    }
+    .p.MuiTypography-root.makeStyles-heading-23.MuiTypography-body1 {
+        font-size: 16px;
+        font-weight: 800 !important;
+        flex-shrink: 0;
+        color: #555;
+    }
+    
+    svg.MuiSvgIcon-root {
+        color: #0B7BD2;
+    }
+    p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
+        font-weight: lighter;
+        font-size: 13px;
+    }
+ }

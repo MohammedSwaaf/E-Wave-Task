@@ -9,10 +9,11 @@ function About() {
                 <div className='dataOfAbout'>
                     <h3>How It Works</h3>
                     <p>An overview of how work happens on Upwork.</p>
-                    <button className='btn btn-primary'>Watch a video</button>
+                    <button className='btn btn-primary'>Get Started</button>
                 </div>
             </div>
             <Taps/>
+            
         </div>
     )
 }

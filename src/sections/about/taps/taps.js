@@ -6,11 +6,11 @@ import Working from '../../../assets/Group 1788.svg';
 import './taps.scss';
 import FullWidthTabs from './FQTaps/subTaps';
 
-function Taps  (props) {
+function Taps(props) {
   const [activeTab, setActiveTab] = useState('1');
 
   const toggle = tab => {
-    if(activeTab !== tab) setActiveTab(tab);
+    if (activeTab !== tab) setActiveTab(tab);
   }
 
   return (
@@ -21,7 +21,7 @@ function Taps  (props) {
             className={classnames({ active: activeTab === '1' })}
             onClick={() => { toggle('1'); }}
           >
-            If you're hiring 
+            If you're hiring
           </NavLink>
         </NavItem>
         <NavItem>
@@ -42,26 +42,26 @@ function Taps  (props) {
         </NavItem>
       </Nav>
       <TabContent activeTab={activeTab}>
-      <TabPane tabId="1">
+        <TabPane tabId="1">
           <Row>
             <Col sm="12" md='12' lg='6' xl='6'>
               <Card body>
                 <CardTitle style={{
-                    fontFamily:'Roboto',fontSize:'35px',fontWeight:'bold',color:'#555',padding: '0px 0 20px 0'
+                  fontFamily: 'Roboto', fontSize: '35px', fontWeight: 'bold', color: '#555', padding: '0px 0 20px 0'
                 }}>Easily find quality matches</CardTitle>
                 <CardText style={{
-                    fontSize:'16px',fontWeight:'lighter',color:'#555'
+                  fontSize: '16px', fontWeight: 'lighter', color: '#555'
                 }}>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings .</CardText>
                 <ul>
-                    <li><b>But I must explain to you.</b> Tell us about your project and the specific skills required. Learn how.</li>
-                    <li><b>But I must explain to you how.</b> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</li>
-                    <li><b>We send you a shortlist of likely candidates.</b> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account .</li>
+                  <li><b>But I must explain to you.</b> Tell us about your project and the specific skills required. Learn how.</li>
+                  <li><b>But I must explain to you how.</b> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</li>
+                  <li><b>We send you a shortlist of likely candidates.</b> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account .</li>
                 </ul>
               </Card>
             </Col>
             <Col sm="12" md='12' lg='6' xl='6' >
               <Card body>
-                <img style={{margin:'120px 0'}} src={Hiring} alt='Hiring' />
+                <img style={{ margin: '120px 0' }} src={Hiring} alt='Hiring' />
               </Card>
             </Col>
           </Row>
@@ -71,33 +71,34 @@ function Taps  (props) {
             <Col sm="12" md='12' lg='6' xl='6'>
               <Card body>
                 <CardTitle style={{
-                    fontFamily:'Roboto',fontSize:'35px',fontWeight:'bold',color:'#555',padding: '0px 0 20px 0'
+                  fontFamily: 'Roboto', fontSize: '35px', fontWeight: 'bold', color: '#555', padding: '0px 0 20px 0'
                 }}>But I must, explain to you how</CardTitle>
                 <CardText style={{
-                    fontSize:'16px',fontWeight:'lighter',color:'#555'
+                  fontSize: '16px', fontWeight: 'lighter', color: '#555'
                 }}>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings .</CardText>
                 <ul>
-                    <li><b>But I must explain to you.</b> Tell us about your project and the specific skills required. Learn how.</li>
-                    <li><b>But I must explain to you how.</b> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</li>
-                    <li><b>We send you a shortlist of likely candidates.</b> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account .</li>
+                  <li><b>But I must explain to you.</b> Tell us about your project and the specific skills required. Learn how.</li>
+                  <li><b>But I must explain to you how.</b> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account.</li>
+                  <li><b>We send you a shortlist of likely candidates.</b> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account .</li>
                 </ul>
               </Card>
             </Col>
             <Col sm="12" md='12' lg='6' xl='6' >
               <Card body>
-                <img style={{margin:'120px 0'}} src={Working} alt='Working' />
+                <img style={{ margin: '120px 0' }} src={Working} alt='Working' />
               </Card>
             </Col>
           </Row>
         </TabPane>
         <TabPane tabId="3">
           <Row>
-            <Col sm="12" style={{justifyContent:'center',display:'flex'}}>
-              <FullWidthTabs/>
+            <Col sm="12" style={{ justifyContent: 'center', display: 'flex' }}>
+              <FullWidthTabs />
             </Col>
           </Row>
         </TabPane>
       </TabContent>
+      
     </div>
   );
 }

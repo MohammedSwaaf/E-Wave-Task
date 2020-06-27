@@ -96,6 +96,10 @@ export default function FullWidthTabs() {
           <Freelance />
         </TabPanel>
       </SwipeableViews>
+      <div className='quetsions'>
+        <p className='seeQuestion'>Don’t see your question? <span>Visit our Help Center</span></p>
+        <p className='addQuestion'>Have a question you’d like answered? <span>Email us at support@mail.com</span></p>
+      </div>
     </div>
   );
 }

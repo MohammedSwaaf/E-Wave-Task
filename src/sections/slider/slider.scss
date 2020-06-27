@@ -1,25 +1,36 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 .slider {
-    .HeadOfSlider{
+    .HeadOfSlider {
         // margin: 20px 0;
         padding: 10px;
-        font-size: 25px;
+        font-size: 12px;
+        color: #555;
+        font-weight: bold;
+        font-family: Roboto;
     }
-    .card{
-        margin: 16px 0;
+    .more{
+        float: right;
+        font-family: Roboto;
+        // text-decoration: underline;
+        margin-top: 5px;
+        margin-right: 15px;
+    }
+    .card {
+        margin: 0px 0 26px 0;
+      
         -webkit-box-shadow: 0 2px 5px 3px #ddd;
         -moz-box-shadow: 0 2px 5px 3px #ddd;
         -o-box-shadow: 0 2px 5px 3px #ddd;
         box-shadow: 0 2px 5px 3px #ddd;
         border: none;
-        // img{
-        //     padding: 0 0 0 10px;
-        // }
+        
         .card-title {
             font-size: 15px;
             font-weight: 500;
         }
-        .MuiRating-root{
-            color: #0064B1;
+        .MuiRating-root {
+            color: #0064b1;
         }
         .MuiBox-root-4 {
             margin-bottom: 0;
@@ -47,7 +58,7 @@
         }
     }
     background: #f9f9f9;
-    padding: 0 128px;
+    // padding: 0 128px;
     // margin: 0 auto;
     // height: 500px;
     .slick-slide {
@@ -55,9 +66,10 @@
         box-shadow: 0px 0px 0px 0 #ddd;
         // border: 1px solid #f1f1f1;
         border-radius: 2px;
-        .leftSide{
-            color: #8A8A8A;
+        .leftSide {
+            color: #8a8a8a;
             font-size: 13px;
+            padding: 5px 0;
             // font-family: monospace;
         }
         // opacity: 1;
@@ -67,12 +79,335 @@
         box-shadow: 0px 1px 5px #0000001a;
         color: #3f3f3f !important;
     }
-    // button.slick-arrow.slick-prev {
-    //     padding: 0px 27px;
-    //     z-index: 10;
-    // }
-    // button.slick-arrow.slick-next {
-    //     padding: 0px 27px;
-    //     z-index: 10;
-    // }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .slider {
+        .HeadOfSlider {
+            // margin: 20px 0;
+            padding: 10px;
+            font-size: 25px;
+            color: #555;
+            font-weight: bold;
+            font-family: Roboto;
+        }
+        .more{
+            float: right;
+            // text-decoration: underline;
+            margin-top: 13px;
+        }
+        .card {
+            margin: 0px 0 26px 0;
+          
+            -webkit-box-shadow: 0 2px 5px 3px #ddd;
+            -moz-box-shadow: 0 2px 5px 3px #ddd;
+            -o-box-shadow: 0 2px 5px 3px #ddd;
+            box-shadow: 0 2px 5px 3px #ddd;
+            border: none;
+            
+            .card-title {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .MuiRating-root {
+                color: #0064b1;
+            }
+            .MuiBox-root-4 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-6 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-8 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-10 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-12 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-14 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+        }
+        background: #f9f9f9;
+        padding: 0 128px;
+        // margin: 0 auto;
+        // height: 500px;
+        .slick-slide {
+            padding: 0 10px;
+            box-shadow: 0px 0px 0px 0 #ddd;
+            // border: 1px solid #f1f1f1;
+            border-radius: 2px;
+            .leftSide {
+                color: #8a8a8a;
+                font-size: 13px;
+                padding: 5px 0;
+                // font-family: monospace;
+            }
+            // opacity: 1;
+        }
+        .slick-next:before,
+        .slick-prev:before {
+            box-shadow: 0px 1px 5px #0000001a;
+            color: #3f3f3f !important;
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .slider {
+        .HeadOfSlider {
+            // margin: 20px 0;
+            padding: 10px;
+            font-size: 25px;
+            color: #555;
+            font-weight: bold;
+            font-family: Roboto;
+        }
+        .more{
+            float: right;
+            // text-decoration: underline;
+            margin-top: 13px;
+        }
+        .card {
+            margin: 0px 0 26px 0;
+          
+            -webkit-box-shadow: 0 2px 5px 3px #ddd;
+            -moz-box-shadow: 0 2px 5px 3px #ddd;
+            -o-box-shadow: 0 2px 5px 3px #ddd;
+            box-shadow: 0 2px 5px 3px #ddd;
+            border: none;
+            
+            .card-title {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .MuiRating-root {
+                color: #0064b1;
+            }
+            .MuiBox-root-4 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-6 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-8 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-10 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-12 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-14 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+        }
+        background: #f9f9f9;
+        padding: 0 128px;
+        // margin: 0 auto;
+        // height: 500px;
+        .slick-slide {
+            padding: 0 10px;
+            box-shadow: 0px 0px 0px 0 #ddd;
+            // border: 1px solid #f1f1f1;
+            border-radius: 2px;
+            .leftSide {
+                color: #8a8a8a;
+                font-size: 13px;
+                padding: 5px 0;
+                // font-family: monospace;
+            }
+            // opacity: 1;
+        }
+        .slick-next:before,
+        .slick-prev:before {
+            box-shadow: 0px 1px 5px #0000001a;
+            color: #3f3f3f !important;
+        }
+    }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .slider {
+        .HeadOfSlider {
+            // margin: 20px 0;
+            padding: 10px;
+            font-size: 25px;
+            color: #555;
+            font-weight: bold;
+            font-family: Roboto;
+        }
+        .more{
+            float: right;
+            // text-decoration: underline;
+            margin-top: 13px;
+        }
+        .card {
+            margin: 0px 0 26px 0;
+          
+            -webkit-box-shadow: 0 2px 5px 3px #ddd;
+            -moz-box-shadow: 0 2px 5px 3px #ddd;
+            -o-box-shadow: 0 2px 5px 3px #ddd;
+            box-shadow: 0 2px 5px 3px #ddd;
+            border: none;
+            
+            .card-title {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .MuiRating-root {
+                color: #0064b1;
+            }
+            .MuiBox-root-4 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-6 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-8 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-10 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-12 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-14 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+        }
+        background: #f9f9f9;
+        padding: 0 128px;
+        // margin: 0 auto;
+        // height: 500px;
+        .slick-slide {
+            padding: 0 10px;
+            box-shadow: 0px 0px 0px 0 #ddd;
+            // border: 1px solid #f1f1f1;
+            border-radius: 2px;
+            .leftSide {
+                color: #8a8a8a;
+                font-size: 13px;
+                padding: 5px 0;
+                // font-family: monospace;
+            }
+            // opacity: 1;
+        }
+        .slick-next:before,
+        .slick-prev:before {
+            box-shadow: 0px 1px 5px #0000001a;
+            color: #3f3f3f !important;
+        }
+    }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .slider {
+        .HeadOfSlider {
+            // margin: 20px 0;
+            padding: 10px;
+            font-size: 25px;
+            color: #555;
+            font-weight: bold;
+            font-family: Roboto;
+        }
+        .more{
+            float: right;
+            // text-decoration: underline;
+            margin-top: 13px;
+        }
+        .card {
+            margin: 0px 0 26px 0;
+          
+            -webkit-box-shadow: 0 2px 5px 3px #ddd;
+            -moz-box-shadow: 0 2px 5px 3px #ddd;
+            -o-box-shadow: 0 2px 5px 3px #ddd;
+            box-shadow: 0 2px 5px 3px #ddd;
+            border: none;
+            
+            .card-title {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .MuiRating-root {
+                color: #0064b1;
+            }
+            .MuiBox-root-4 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-6 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-8 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-10 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-12 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+            .MuiBox-root-14 {
+                margin-bottom: 0;
+                // border-color: transparent;
+            }
+        }
+        background: #f9f9f9;
+        padding: 0 128px;
+        // margin: 0 auto;
+        // height: 500px;
+        .slick-slide {
+            padding: 0 10px;
+            box-shadow: 0px 0px 0px 0 #ddd;
+            // border: 1px solid #f1f1f1;
+            border-radius: 2px;
+            .leftSide {
+                color: #8a8a8a;
+                font-size: 13px;
+                padding: 5px 0;
+                // font-family: monospace;
+            }
+            // opacity: 1;
+        }
+        .slick-next:before,
+        .slick-prev:before {
+            box-shadow: 0px 1px 5px #0000001a;
+            color: #3f3f3f !important;
+        }
+    }
 }

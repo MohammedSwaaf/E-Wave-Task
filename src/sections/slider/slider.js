@@ -5,6 +5,7 @@ import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Row, Col
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import Rating from '@material-ui/lab/Rating';
 import Box from '@material-ui/core/Box';
 
@@ -27,6 +28,14 @@ class SliderProjects extends Component {
             initialSlide: 0,
             draggable: false,
             responsive: [
+                {
+                    breakpoint: 1256,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
                 {
                     breakpoint: 1025,
                     settings: {
@@ -61,7 +70,9 @@ class SliderProjects extends Component {
         };
         return (
             <div className='slider'>
+                <Link to='#' className='more'>{'see more  >'}</Link>
                 <h2 className="HeadOfSlider"> Get Inspired With Projects Done on Site </h2>
+
                 <Slider {...settings}>
                     <div>
                         <Card>
@@ -75,14 +86,14 @@ class SliderProjects extends Component {
                                     </div>
 
                                 </CardSubtitle>
-                                <CardText style={{ marginTop: '15px',marginBottom: '-40px' }}>
+                                <CardText style={{ marginTop: '15px', marginBottom: '-40px' }}>
                                     <Row>
                                         <Col sm='12' md='12'>
-                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%',margin:'0 0 0 -12px' }} alt='person' />
+                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%', margin: '0 0 0 -12px' }} alt='person' />
 
                                             <div style={{ marginTop: '-5px' }}>
 
-                                                <div style={{ padding: '0 40px', position: 'relative', bottom: '40px' }}> <span style={{ fontSize: '13px', fontWeight: '600', float: 'left', marginRight: '5px' }}>Fatma Adel
+                                                <div style={{ padding: '0 40px', position: 'relative', bottom: '40px' }}> <span style={{ fontSize: '13px', fontWeight: '600', float: 'left', marginRight: '5px' }}>Fatma
                                                 </span>
 
                                                     <Box component="fieldset" mb={3} borderColor="transparent">
@@ -111,15 +122,15 @@ class SliderProjects extends Component {
                                         <span className='leftSide' style={{ float: 'right' }}><FontAwesomeIcon icon={faStar} style={{ color: '#FFBF00' }} /><span style={{ color: '#FFBF00', margin: '0 5px' }}>4.2</span>(8K+)</span>
                                     </div>
                                 </CardSubtitle>
-                                <CardText style={{ marginTop: '15px',marginBottom: '-40px' }}>
+                                <CardText style={{ marginTop: '15px', marginBottom: '-40px' }}>
                                     <Row>
 
-                                     <Col sm='12' md='12'>
-                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%',margin:'0 0 0 -12px' }} alt='person' />
+                                        <Col sm='12' md='12'>
+                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%', margin: '0 0 0 -12px' }} alt='person' />
 
                                             <div style={{ marginTop: '-5px' }}>
 
-                                                <div style={{ padding: '0 40px', position: 'relative', bottom: '40px' }}> <span style={{ fontSize: '13px', fontWeight: '600', float: 'left', marginRight: '5px' }}>Hossam Khaled
+                                                <div style={{ padding: '0 40px', position: 'relative', bottom: '40px' }}> <span style={{ fontSize: '13px', fontWeight: '600', float: 'left', marginRight: '5px' }}>Hossam
                                                 </span>
 
                                                     <Box component="fieldset" mb={3} borderColor="transparent">
@@ -147,11 +158,11 @@ class SliderProjects extends Component {
                                         <span className='leftSide' style={{ float: 'right' }}><FontAwesomeIcon icon={faStar} style={{ color: '#FFBF00' }} /><span style={{ color: '#FFBF00', margin: '0 5px' }}>4.7</span>(1K+)</span>
                                     </div>
                                 </CardSubtitle>
-                                <CardText style={{ marginTop: '15px',marginBottom: '-40px' }}>
+                                <CardText style={{ marginTop: '15px', marginBottom: '-40px' }}>
                                     <Row>
-                                       
-                                     <Col sm='12' md='12'>
-                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%',margin:'0 0 0 -12px' }} alt='person' />
+
+                                        <Col sm='12' md='12'>
+                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%', margin: '0 0 0 -12px' }} alt='person' />
 
                                             <div style={{ marginTop: '-5px' }}>
 
@@ -183,20 +194,20 @@ class SliderProjects extends Component {
                                         <span className='leftSide' style={{ float: 'right' }}><FontAwesomeIcon icon={faStar} style={{ color: '#FFBF00' }} /><span style={{ color: '#FFBF00', margin: '0 5px' }}>4.1</span>(513)</span>
                                     </div>
                                 </CardSubtitle>
-                                <CardText style={{ marginTop: '15px',marginBottom: '-40px' }}>
+                                <CardText style={{ marginTop: '15px', marginBottom: '-40px' }}>
                                     <Row>
-                                        
-                                     <Col sm='12' md='12'>
-                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%',margin:'0 0 0 -12px' }} alt='person' />
+
+                                        <Col sm='12' md='12'>
+                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%', margin: '0 0 0 -12px' }} alt='person' />
 
                                             <div style={{ marginTop: '-5px' }}>
 
-                                                <div style={{ padding: '0 40px', position: 'relative', bottom: '40px' }}> <span style={{ 
+                                                <div style={{ padding: '0 40px', position: 'relative', bottom: '40px' }}> <span style={{
                                                     fontSize: '12px',
                                                     fontWeight: '500',
                                                     float: 'left',
                                                     marginRight: '2px',
-                                                }}>Mahmoud Mostafa
+                                                }}>Mahmoud
                                                 </span>
 
                                                     <Box component="fieldset" mb={3} borderColor="transparent">
@@ -213,42 +224,7 @@ class SliderProjects extends Component {
                             </CardBody>
                         </Card>
                     </div>
-                    <div>
-                        <Card>
-                            <CardImg top width="100%" src={build} alt="Card image cap" />
-                            <CardBody>
-                                <CardTitle style={{ fontSize: '15px' }}>This is a Project title</CardTitle>
-                                <CardSubtitle>
-                                    <div>
-                                        <span className='leftSide'>in Design</span>
-                                        <span style={{ float: 'right', position: 'relative', top: '5px' }}><FontAwesomeIcon icon={faStar} style={{ color: '#FFBF00' }} /><span style={{ color: '#FFBF00', margin: '0 5px' }}>4.7</span><span style={{ color: '#8A8A8A'}}>(1k+)</span></span>
-                                    </div>
-                                </CardSubtitle>
-                                <CardText style={{ marginTop: '15px',marginBottom: '-40px' }}>
-                                    <Row>
-                                  
-                                    <Col sm='12' md='12'>
-                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%',margin:'0 0 0 -12px' }} alt='person' />
-
-                                            <div style={{ marginTop: '-5px' }}>
-
-                                                <div style={{ padding: '0 40px', position: 'relative', bottom: '40px' }}> <span style={{ fontSize: '13px', fontWeight: '600', float: 'left', marginRight: '5px' ,color:'#8A8A8A' }}>Fatma Adel
-                                                </span>
-
-                                                    <Box component="fieldset" mb={3} borderColor="transparent">
-                                                        <Rating name="half-rating-read" defaultValue={3.5} precision={0.5} readOnly size="small" />
-                                                    </Box>
-                                                    <p style={{ fontSize: '11px', fontFamily: 'roboto' }}>Job titel</p>
-
-                                                </div>
-
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </CardText>
-                            </CardBody>
-                        </Card>
-                    </div>
+                   
                     <div>
                         <Card>
                             <CardImg top width="100%" src={hotel} alt="Card image cap" />
@@ -260,11 +236,11 @@ class SliderProjects extends Component {
                                         <span className='leftSide' style={{ float: 'right' }}><FontAwesomeIcon icon={faStar} style={{ color: '#FFBF00' }} /><span style={{ color: '#FFBF00', margin: '0 5px' }}>4.2</span>(8K+)</span>
                                     </div>
                                 </CardSubtitle>
-                                <CardText style={{ marginTop: '15px',marginBottom: '-40px' }}>
+                                <CardText style={{ marginTop: '15px', marginBottom: '-40px' }}>
                                     <Row>
-                                      
-                                     <Col sm='12' md='12'>
-                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%',margin:'0 0 0 -12px' }} alt='person' />
+
+                                        <Col sm='12' md='12'>
+                                            <img src={bool} width='43' height='43' style={{ borderRadius: '50%', margin: '0 0 0 -12px' }} alt='person' />
 
                                             <div style={{ marginTop: '-5px' }}>
 
@@ -286,6 +262,42 @@ class SliderProjects extends Component {
                         </Card>
                     </div>
 
+                    <div>
+                        <Card>
+                            <CardImg top width="100%" src={build} alt="Card image cap" />
+                            <CardBody>
+                                <CardTitle>This is a Project title</CardTitle>
+                                <CardSubtitle>
+                                    <div>
+                                        <span className='leftSide'>in Design</span>
+                                        <span className='leftSide' style={{ float: 'right' }}><FontAwesomeIcon icon={faStar} style={{ color: '#FFBF00' }} /><span style={{ color: '#FFBF00', margin: '0 5px' }}>4.9</span>(10K+)</span>
+                                    </div>
+                                </CardSubtitle>
+                                <CardText style={{ marginTop: '15px', marginBottom: '-40px' }}>
+                                    <Row>
+
+                                        <Col sm='12' md='12'>
+                                            <img src={build} width='43' height='43' style={{ borderRadius: '50%', margin: '0 0 0 -12px' }} alt='person' />
+
+                                            <div style={{ marginTop: '-5px' }}>
+
+                                                <div style={{ padding: '0 40px', position: 'relative', bottom: '40px' }}> <span style={{ fontSize: '13px', fontWeight: '600', float: 'left', marginRight: '5px' }}>Swaaf
+                                                </span>
+
+                                                    <Box component="fieldset" mb={3} borderColor="transparent">
+                                                        <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly size="small" />
+                                                    </Box>
+                                                    <p style={{ fontSize: '11px', fontFamily: 'roboto', color: '#8A8A8A' }}>Job titel</p>
+
+                                                </div>
+
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </div>
                 </Slider>
             </div>
         );

@@ -9,11 +9,11 @@ import "./aboutsFq.scss";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
+    // width: '100%',
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
-    flexBasis: '33.33%',
+    // flexBasis: '33.33%',
     flexShrink: 0,
   },
   secondaryHeading: {
@@ -39,13 +39,11 @@ export default function Freelance() {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography className={classes.heading}>General settings</Typography>
-          <Typography className={classes.secondaryHeading}>I am an expansion panel</Typography>
+          <Typography className={classes.heading}>Lorem ipsum dolor sit amet, consetetur sadipscing?</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat. Aliquam eget
-            maximus est, id dignissim quam.
+          <Typography className='dowenCollapse'>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>      

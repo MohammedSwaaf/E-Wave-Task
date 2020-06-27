@@ -9,11 +9,11 @@ import Footer from '../layout/footer/footer';
 function Home() {
     return (
         <div>
-            <Nav/>
-            <Banner/>
+            <Nav />
+            <Banner />
             <Business />
             <SliderProjects />
-            <About/>
+            <About />
             <Joining />
             <Footer />
         </div>
