@@ -34,8 +34,8 @@ export default function Mission() {
     setNewExpanded(hasExpanded ? panel2 : false);
   };
   return (
-    <div className=''>
-        <h2 className='headNav'>About Us</h2>
+    <>
+      <h2 className='headNav'>About Us</h2>
       <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
@@ -46,10 +46,10 @@ export default function Mission() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography className='dowenCollapse'>
-          Anything you can do on a computer can be done through us.
+            Anything you can do on a computer can be done through us.
           </Typography>
         </ExpansionPanelDetails>
-      </ExpansionPanel>      <br/>
+      </ExpansionPanel>      <br />
       <ExpansionPanel expanded={newExpanded === 'panel2'} onChange={handleChangeNewExpend('panel2')}>
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
@@ -60,10 +60,10 @@ export default function Mission() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography className='dowenCollapse'>
-          Technology is making online work similar to local work, with added speed, cost, and quality advantages.
+            Technology is making online work similar to local work, with added speed, cost, and quality advantages.
           </Typography>
         </ExpansionPanelDetails>
-      </ExpansionPanel>  
-    </div>
+      </ExpansionPanel>
+    </>
   );
 }

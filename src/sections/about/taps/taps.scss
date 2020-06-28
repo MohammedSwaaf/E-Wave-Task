@@ -26,6 +26,9 @@
     .card-body {
         border: none;
     }
+    .card-title{
+        font-size: 20px !important;
+    }
     .tab-content {
         margin: 100px 0;
         ul {
@@ -63,6 +66,9 @@
         }
         .card-body {
             border: none;
+        }
+        .card-title{
+            font-size: 25px !important;
         }
         .tab-content {
             margin: 100px 0;
@@ -104,6 +110,9 @@
         .card-body {
             border: none;
         }
+        .card-title{
+            font-size: 30px !important;
+        }
         .tab-content {
             margin: 100px 0;
             ul {
@@ -144,11 +153,14 @@
         .card-body {
             border: none;
         }
+        .card-title{
+            font-size: 25px !important;
+        }
         .tab-content {
             margin: 100px 0;
             ul {
                 li {
-                    padding: 20px;
+                    padding: 10px;
                     font-weight: lighter;
                 }
             }
@@ -183,6 +195,9 @@
         }
         .card-body {
             border: none;
+        }
+        .card-title{
+            font-size: 30px !important;
         }
         .tab-content {
             margin: 100px 0;

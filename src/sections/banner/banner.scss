@@ -15,7 +15,7 @@ $size: 45px;
     opacity: 1;
     display: flex;
     justify-content: center;
-    padding: 0 100px;
+    padding: 0 50px;
     .colOfBannerData {
         margin: 50px 0 !important;
         // padding: 0 0px !important;
@@ -381,11 +381,17 @@ $size: 45px;
                 margin-right: 88px 0;
                 margin: -340px 50px;
             }
+            .MuiRating-readOnly{
+                color: red($color: #000000);
+            }
             .dataOfParseon {
                 margin: 225px 0 0 175px;
                 .MuiBox-root-2 {
                     margin-bottom: 0px;
                     margin-left: -4px;
+                }
+                .MuiRating-readOnly-root{
+                    color: rgb(255, 191, 0) !important;
                 }
                 .name {
                     color: #555;

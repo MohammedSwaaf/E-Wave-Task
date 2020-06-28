@@ -14,10 +14,10 @@ function Footer() {
         <div className='footer'>
             <div className='linksOfFooter'>
                 <Row>
-                    <Col xs='12' sm='12' md='4' lg='4'>
-                        <div>
+                    <Col xs='12' sm='6' md='4' lg='4'>
+                        <div className='firstCol'>
                             <h2 className='logoFooter'>siteLogo</h2>
-                            <div className='tesrms'><span>{'Privacy Policy'+'  '}</span><span style={{padding:'0 10px'}}>|</span><span>{'  '+'Terms of Service'}</span></div>
+                            <div className='tesrms'><span>{`Privacy Policy  `}</span><span style={{ padding: '0 10px' }}>|</span><span>{`  Terms of Service`}</span></div>
                             <p className='copyRight'>© {new Date().getFullYear()} company International. All Copyrights Reserved!</p>
                             <div className='socialApps'>
                                 <img src={facebook} alt='facebook' />
@@ -29,22 +29,22 @@ function Footer() {
                             </div>
                         </div>
                     </Col>
-                    <Col xs='12' sm='12' md='4' lg='4'>
+                    <Col xs='12' sm='6' md='4' lg='4'>
                         <div>
                             <ul>
                                 <li className='Top'>About</li>
                                 <li>Privacy Policy</li>
-                                <li>Terms of Service</li>    
+                                <li>Terms of Service</li>
                                 <li>Intellectual Property Claims</li>
                             </ul>
                         </div>
                     </Col>
                     <Col xs='12' sm='12' md='4' lg='4'>
-                    <div>
+                        <div>
                             <ul>
                                 <li className='Top'>Support</li>
                                 <li>How it works?</li>
-                                <li>Support</li>    
+                                <li>Support</li>
                                 <li>Trust & Safety</li>
                                 <li>Invite Friends</li>
                             </ul>

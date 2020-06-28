@@ -5,9 +5,27 @@
     text-align: center;
     color: #555;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 10px;
     font-family: roboto;
     margin: 30px 0;
+}
+.makeStyles-heading-28,.makeStyles-heading-23,.makeStyles-heading-33{
+    width: 85px;
+    padding: 0 !important;
+}
+// .makeStyles-heading-29,.makeStyles-heading-24,.makeStyles-heading-19,.makeStyles-heading-92{
+//     font-size: 8px !important;
+//     // width: 200px;
+//     font-weight: bold;
+//     font-family: Roboto;
+
+// }
+p.MuiTypography-root.dowenCollapse.MuiTypography-body1 {
+    font-weight: lighter;
+    font-size: 9px !important;
+}
+.makeStyles-heading-19{
+    font-size: 8px;
 }
 .makeStyles-root-31{
     width: 100% !important;
@@ -18,10 +36,13 @@
 .MuiExpansionPanel-root:before{
     content:none !important;
 }
-.makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33 {
+.makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33,.makeStyles-heading-97
+,.MuiExpansionPanelSummary-content {
     font-size: 11px !important;
     font-weight: 500;
-    width: 114px;
+    // width: 114px;
+    padding: 0 8px;
+    margin: 0;
 }
 .MuiPaper-elevation1 {
     border: 1px solid #ddd;
@@ -39,7 +60,7 @@
 }
 
 svg.MuiSvgIcon-root {
-    color: #0B7BD2;
+    // color: #0B7BD2;
 }
 p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
     font-weight: lighter;
@@ -51,14 +72,26 @@ p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
         text-align: center;
         color: #555;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 30px;
         font-family: roboto;
         margin: 30px 0;
     }
+    
     .makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33 {
         font-size: 12px !important;
         font-weight: 500;
         width:250px;
+        padding: 0 !important;
+    }
+    .makeStyles-heading-29,.makeStyles-heading-24,.makeStyles-heading-19{
+        font-size: 12px !important;
+        font-weight: bold;
+        font-family: Roboto;
+    
+    }
+    p.MuiTypography-root.dowenCollapse.MuiTypography-body1 {
+        font-weight: lighter;
+        font-size: 11px !important;
     }
     .makeStyles-root-31{
         width: 100% !important;
@@ -81,7 +114,7 @@ p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
     }
     
     svg.MuiSvgIcon-root {
-        color: #0B7BD2;
+        // color: #0B7BD2;
     }
     p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
         font-weight: lighter;
@@ -95,9 +128,12 @@ p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
         text-align: center;
         color: #555;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 30px;
         font-family: roboto;
         margin: 30px 0;
+    }
+    .makeStyles-heading-31{
+        font-size: 12px;
     }
     .makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33 {
         font-size: 14px !important;
@@ -125,7 +161,7 @@ p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
     }
     
     svg.MuiSvgIcon-root {
-        color: #0B7BD2;
+        // color: #0B7BD2;
     }
     p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
         font-weight: lighter;
@@ -139,9 +175,12 @@ p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
         text-align: center;
         color: #555;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 30px;
         font-family: roboto;
         margin: 30px 0;
+    }
+    .makeStyles-heading-31{
+        font-size: 12px;
     }
     .makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33 {
         font-size: 14px !important;
@@ -169,7 +208,7 @@ p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
     }
     
     svg.MuiSvgIcon-root {
-        color: #0B7BD2;
+        // color: #0B7BD2;
     }
     p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
         font-weight: lighter;
@@ -183,9 +222,12 @@ p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
         text-align: center;
         color: #555;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 35px;
         font-family: roboto;
         margin: 30px 0;
+    }
+    .makeStyles-heading-31{
+        font-size: 20px;
     }
     .makeStyles-heading-23,.makeStyles-heading-28,.makeStyles-heading-33 {
         font-size: 16px !important;
@@ -213,7 +255,7 @@ p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
     }
     
     svg.MuiSvgIcon-root {
-        color: #0B7BD2;
+        // color: #0B7BD2;
     }
     p.MuiTypography-root.dowenCollapse.MuiTypography-body1{
         font-weight: lighter;

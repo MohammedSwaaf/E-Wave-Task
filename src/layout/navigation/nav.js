@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-    Container,Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink
+    Container, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink
 } from 'reactstrap';
 import { NavLink as RRNavLink } from 'react-router-dom';
 import './nav.scss';
@@ -44,14 +44,14 @@ class Navigation extends Component {
                                 </NavItem>
 
                                 <NavItem>
-                                    <NavLink activeClassName="active" tag={RRNavLink} to='/help'>Sign in</NavLink>
+                                    <NavLink style={{ color: '#555555' }} tag={RRNavLink} to='#'>Sign in</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink activeClassName="active" exact tag={RRNavLink} to='/log'>Join</NavLink>
+                                    <NavLink style={{ color: '#555555' }} tag={RRNavLink} to='#'>Join</NavLink>
                                 </NavItem>
 
                                 <NavItem>
-                                    <NavLink activeClassName="active" className='postProject btn' tag={RRNavLink} to='/sign'>Post a project</NavLink>
+                                    <NavLink className='postProject btn' tag={RRNavLink} to='#'>Post a project</NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>

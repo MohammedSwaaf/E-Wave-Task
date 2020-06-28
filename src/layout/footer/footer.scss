@@ -1,10 +1,16 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 .footer{
     // height: 220px;
     background-color: #F1F1F1;
     border: 1px solid #F1F1F1;
-    // text-align: center;
+    text-align: left;
+    
     .linksOfFooter{
-        padding: 0 139px;
+        .firstCol{
+            padding: 0 40px;
+        }
+        
         .logoFooter{
             color: #555;
             margin-top: 33px;
@@ -17,7 +23,7 @@
             color: #555;
         }
         .copyRight{
-            font-size: 12px;
+            font-size: 11px;
             font-family: Roboto;
             color: #555;
             opacity: 0.75;
@@ -48,3 +54,236 @@
     }
 
 }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .footer{
+        text-align: left;
+        // height: 220px;
+        background-color: #F1F1F1;
+        border: 1px solid #F1F1F1;
+        // text-align: center;
+        .linksOfFooter{
+            .firstCol{
+                padding: 0 0px;
+            }
+            padding: 0 139px;
+            .logoFooter{
+                color: #555;
+                margin-top: 33px;
+                font-family: roboto;
+                font-weight: 600;
+                font-size:25px;
+            }
+            .tesrms{
+                font-size: 8px;
+                font-family:roboto;
+                color: #555;
+            }
+            .copyRight{
+                font-size: 8px;
+                font-family: Roboto;
+                color: #555;
+                opacity: 0.75;
+                margin-top: 8px;
+            }
+            .socialApps{
+                img{
+                    padding-right: 25px;
+                }
+            }
+            ul{
+                list-style: none;
+                margin-top: 40px;
+                .Top{
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: Roboto;
+                    color: #555;
+                }
+                li{
+                    padding: 5px 0;
+                    font-size: 12px;
+                    color: #555;
+                    font-family: Roboto;
+                    text-align: left;
+                }
+            }
+        }
+    
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .footer{
+        text-align: left;
+        // height: 220px;
+        background-color: #F1F1F1;
+        border: 1px solid #F1F1F1;
+        // text-align: center;
+        .linksOfFooter{
+            .firstCol{
+                padding: 0 0px;
+            }
+            padding: 0 139px;
+            .logoFooter{
+                color: #555;
+                margin-top: 33px;
+                font-family: roboto;
+                font-weight: 600;
+                font-size:25px;
+            }
+            .tesrms{
+                font-size: 8px;
+                font-family:roboto;
+                color: #555;
+            }
+            .copyRight{
+                font-size: 8px;
+                font-family: Roboto;
+                color: #555;
+                opacity: 0.75;
+                margin-top: 8px;
+            }
+            .socialApps{
+                img{
+                    padding-right: 25px;
+                }
+            }
+            ul{
+                list-style: none;
+                margin-top: 40px;
+                .Top{
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: Roboto;
+                    color: #555;
+                }
+                li{
+                    padding: 5px 0;
+                    font-size: 12px;
+                    color: #555;
+                    font-family: Roboto;
+                    text-align: left;
+                }
+            }
+        }
+    
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .footer{
+        text-align: left;
+        // height: 220px;
+        background-color: #F1F1F1;
+        border: 1px solid #F1F1F1;
+        // text-align: center;
+        .linksOfFooter{
+            .firstCol{
+                padding: 0 0px;
+            }
+            padding: 0 139px;
+            .logoFooter{
+                color: #555;
+                margin-top: 33px;
+                font-family: roboto;
+                font-weight: 600;
+            }
+            .tesrms{
+                font-size: 11px;
+                font-family:roboto;
+                color: #555;
+            }
+            .copyRight{
+                font-size: 11px;
+                font-family: Roboto;
+                color: #555;
+                opacity: 0.75;
+                margin-top: 8px;
+            }
+            .socialApps{
+                img{
+                    padding-right: 15px;
+                }
+            }
+            ul{
+                list-style: none;
+                margin-top: 40px;
+                .Top{
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: Roboto;
+                    color: #555;
+                }
+                li{
+                    padding: 5px 0;
+                    font-size: 12px;
+                    color: #555;
+                    font-family: Roboto;
+                    text-align: left;
+                }
+            }
+        }
+    
+    }
+  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .footer{
+        // height: 220px;
+        text-align: left;
+        background-color: #F1F1F1;
+        border: 1px solid #F1F1F1;
+        // text-align: center;
+        .linksOfFooter{
+            .firstCol{
+                padding: 0 0px;
+            }
+            padding: 0 139px;
+            .logoFooter{
+                color: #555;
+                margin-top: 33px;
+                font-family: roboto;
+                font-weight: 600;
+            }
+            .tesrms{
+                font-size: 14px;
+                font-family:roboto;
+                color: #555;
+            }
+            .copyRight{
+                font-size: 11px;
+                font-family: Roboto;
+                color: #555;
+                opacity: 0.75;
+                margin-top: 8px;
+            }
+            .socialApps{
+                img{
+                    padding-right: 25px;
+                }
+            }
+            ul{
+                list-style: none;
+                margin-top: 40px;
+                .Top{
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: Roboto;
+                    color: #555;
+                }
+                li{
+                    padding: 5px 0;
+                    font-size: 12px;
+                    color: #555;
+                    font-family: Roboto;
+                    text-align: left;
+                }
+            }
+        }
+    
+    }
+ }

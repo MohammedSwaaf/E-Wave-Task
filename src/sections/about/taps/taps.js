@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Card, CardTitle, CardText, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 import Hiring from '../../../assets/Group 1719.svg';
 import Working from '../../../assets/Group 1788.svg';
@@ -12,14 +12,27 @@ function Taps(props) {
   const toggle = tab => {
     if (activeTab !== tab) setActiveTab(tab);
   }
-
+  const clickHiring = () => {
+    toggle('1');
+    props.triggerButtonHiring()
+  }
+  const clickWorking = () => {
+    toggle('2');
+    props.triggerButtonWorking()
+  }
+  const clickFAQ = () => {
+    toggle('3');
+    props.triggerButtonFAQ()
+  }
+// console.log(textOfBtn);
   return (
+    <>
     <div className='tapsOfAbout'>
       <Nav className='tabs' tabs>
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === '1' })}
-            onClick={() => { toggle('1'); }}
+            onClick={clickHiring}
           >
             If you're hiring
           </NavLink>
@@ -27,7 +40,7 @@ function Taps(props) {
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === '2' })}
-            onClick={() => { toggle('2'); }}
+            onClick={clickWorking}
           >
             If you're working
           </NavLink>
@@ -35,7 +48,7 @@ function Taps(props) {
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === '3' })}
-            onClick={() => { toggle('3'); }}
+            onClick={clickFAQ}
           >
             FAQs
           </NavLink>
@@ -98,8 +111,9 @@ function Taps(props) {
           </Row>
         </TabPane>
       </TabContent>
-      
+
     </div>
+    </>
   );
 }
 export default Taps;

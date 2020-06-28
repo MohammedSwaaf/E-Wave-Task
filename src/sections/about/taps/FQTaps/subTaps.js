@@ -66,6 +66,7 @@ export default function FullWidthTabs() {
   };
 
   return (
+    <>
     <div className={classes.root}>
       <AppBar position="static" color="default">
         <Tabs
@@ -101,5 +102,6 @@ export default function FullWidthTabs() {
         <p className='addQuestion'>Have a question you’d like answered? <span>Email us at support@mail.com</span></p>
       </div>
     </div>
+    </>
   );
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import Join from '../../assets/Group 1769.png';
 import './join.scss';
 
 
 function Joining() {
     return (
+        <>
         <div className="joining">
             <div className='preJoining'>
                 <div className='containData'>
@@ -14,6 +14,7 @@ function Joining() {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

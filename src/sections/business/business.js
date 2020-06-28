@@ -11,6 +11,7 @@ import { Player,BigPlayButton } from 'video-react';
 
 function Business() {
     return (
+        <>
         <div className='business' style={{ margin: 'auto', padding: ' 60px 139px' }}>
             <Row>
                 <Col xs='12' sm='12' md='12' lg='6' style={{ margin: 'auto' }}>
@@ -40,6 +41,7 @@ function Business() {
                 </Col>
             </Row>
         </div>
+        </>
     )
 }
 

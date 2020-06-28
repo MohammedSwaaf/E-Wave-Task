@@ -29,6 +29,7 @@ export default function Hiring() {
   };
 
   return (
+    <>
     <div className={classes.root}>
         <h2 className='headNav'>Lorem ipsum dolor sit amet</h2>
       <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -46,5 +47,6 @@ export default function Hiring() {
         </ExpansionPanelDetails>
       </ExpansionPanel>      
     </div>
+    </>
   );
 }
