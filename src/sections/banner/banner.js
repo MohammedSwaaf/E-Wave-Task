@@ -17,9 +17,8 @@ function Banner() {
         setTimeout(() => {
             
             Swal.fire({
-                icon: 'warning',
-                title: 'Greeting,',
-                text: `I hope to give me your feedback if I'm not accepted `,
+                icon: 'success',
+                title: 'Greeting',
                 showConfirmButton: false,
                 timer: 5000
             })
