@@ -24,7 +24,6 @@ function Taps(props) {
     toggle('3');
     props.triggerButtonFAQ()
   }
-// console.log(textOfBtn);
   return (
     <>
     <div className='tapsOfAbout'>

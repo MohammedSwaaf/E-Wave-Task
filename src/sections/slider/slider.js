@@ -107,9 +107,7 @@ class SliderProjects extends Component {
                                                             readOnly size="small"
                                                         />
                                                     </Box>
-                                                    {/* <Box component="fieldset" mb={3} borderColor="transparent">
-                                                        <Rating name="half-rating-read"  precision={0.5} readOnly size="small" />
-                                                    </Box> */}
+                                                    
                                                     <div style={{ fontSize: '11px', fontFamily: 'roboto', color: '#8A8A8A' }}>Job titel</div>
 
                                                 </div>

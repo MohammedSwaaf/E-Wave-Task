@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './about.scss';
 import Taps from './taps/taps';
-import play from '../../assets/Group 1767.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 function About() {
@@ -16,8 +15,7 @@ function About() {
     const buttonFAQ = () => {
         setbtn('Watch a video')
     }
-    const img = <img src={play} alt='play' />;
-    console.log(img.props.src);
+   
     if (btn === 'Watch a video') {
         console.log(btn);
     }

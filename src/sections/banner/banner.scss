@@ -18,7 +18,12 @@ $size: 45px;
     padding: 0 50px;
     .colOfBannerData {
         margin: 50px 0 !important;
-        // padding: 0 0px !important;
+        padding: 0 25px !important;
+        .spinner-border {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+        }
     }
     .bannerData {
         padding: 0 45px;
@@ -91,7 +96,7 @@ $size: 45px;
         opacity: 1;
         display: flex;
         justify-content: center;
-        padding: 0 100px;
+        padding: 0 0 0 100px;
         .colOfBannerData {
             margin: 50px 0 !important;
             // padding: 0 0px !important;
@@ -168,7 +173,7 @@ $size: 45px;
         opacity: 1;
         display: flex;
         justify-content: center;
-        padding: 0 0px;
+        padding: 0 100px 0 0;
         .colOfBannerData {
             margin: 100px auto 0 auto !important;
             padding: 0 0px !important;
@@ -215,6 +220,11 @@ $size: 45px;
                 border-bottom: 0;
                 margin: -271px 0px;
             }
+            .spinner-border {
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+            }
             .dataOfParseon {
                 margin: 173px 0 0 50px;
                 font-size: 15px;
@@ -246,9 +256,14 @@ $size: 45px;
         opacity: 1;
         display: flex;
         justify-content: center;
-        // padding: 0 100px;
+        padding: 0 100px;
         .colOfBannerData {
             margin: 100px auto 0 auto !important;
+            .spinner-border {
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+            }
         }
         .bannerData {
             // margin: auto;
@@ -330,7 +345,12 @@ $size: 45px;
         opacity: 1;
         display: flex;
         justify-content: center;
-        // padding: 0 139px;
+        padding: 0 150px;
+        .spinner-border {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+        }
         .bannerData {
             .bannerHead {
                 padding-bottom: 37px;
